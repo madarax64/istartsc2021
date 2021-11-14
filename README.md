@@ -14,7 +14,7 @@ Please install the following packages (via conda or pip as desired) before runni
 Before running any of the provided scripts, a data preparation step is required. This involves:
 1. The UCR TS Archive **(2015)**, available from [here](https://www.cs.ucr.edu/~eamonn/time_series_data/)
 2. The Pretrained ResNet models provided by Ismail Fawaz et al, available from [here](https://germain-forestier.info/src/ijcnn2019/pre-trained-resnet.zip)
-3. The adversarial data provided by Ismail Fawaz (available on request from Ismail Fawaz et. al)
+3. The adversarial data provided by Ismail Fawaz (available on request from Ismail Fawaz et. al, see paper [here](https://arxiv.org/pdf/1903.07054.pdf))
 
 Each of these must be extracted into the root of this source tree. Afterwards, the `consolidate_datasets.py` script must be run, with the path to the UCR TS archive data directory (1 above) and the adversarial data directory (3 above) specified as command line arguments. This will automatically create a `Data` directory in the root of this source tree containing the prepared data.
 
