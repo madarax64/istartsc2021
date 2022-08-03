@@ -1,5 +1,5 @@
 # istartsc2021
-Code repository for the paper "Investigating Strategies Towards Adversarially-Robust Time Series Classification" (under consideration for publication in Pattern Recognition Letters)
+Code repository for the paper "Investigating Strategies Towards Adversarially-Robust Time Series Classification" (published in Pattern Recognition Letters)
 
 # Required Packages
 Please install the following packages (via conda or pip as desired) before running:
